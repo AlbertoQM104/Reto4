@@ -138,12 +138,12 @@ class Docente:
                     for key in alumno:
                         print(key,":",alumno[key]) 
                 sleep(2)      
-            if dopt == 2 :
+            elif dopt == 2 :
                 for docente in data["docentes"]:
                     print(" ")
                     for key in docente:
                         print(key,":",docente[key])
-                sleep(2)    
+                sleep(2)   
             else:
                 print("El valor no es correcto!")        
         except Exception:
